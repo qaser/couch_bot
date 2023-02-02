@@ -21,7 +21,7 @@ jobs:
           cd couch_bot/
           rm logs_bot.log
           git pull
-          pm2 restart wimp
+          pm2 restart couch
 
   send_message:
     runs-on: ubuntu-latest
